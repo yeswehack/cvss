@@ -1,0 +1,33 @@
+{
+    "name": "picoss/cvss",
+    "license": "MIT",
+    "type": "library",
+    "description": "Common Vulnerability Scoring System Version",
+    "keywords": [
+        "security",
+        "cvss",
+        "cvss3"
+    ],
+    "authors": [
+        {
+            "name": "Romain Honel",
+            "email": "r.honel@yeswehack.com"
+        },
+        {
+            "name": "Maxime Bouchard",
+            "email": "m.bouchard@yeswehack.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YWH\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/options-resolver": "^2.3 || ^3.0 || ^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
