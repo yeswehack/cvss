@@ -140,6 +140,7 @@ class Cvss3Test extends \PHPUnit_Framework_TestCase
             ['CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H', 9.9],
             ['CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L', 4.2],
             ['CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 8.8],
+            ['CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/CR:M/MC:N/MI:N/MA:N', 5.3, 5.3, 0],
         ];
     }
 }
