@@ -664,7 +664,7 @@ class Cvss3
         $modifiedExploitabilitySubScore = self::$exploitabilityCoefficient * $this->vectorLevels['MAV'] * $this->vectorLevels['MAC'] * $this->vectorLevels['MPR'] * $this->vectorLevels['MUI'];
 
         if ($modifiedImpactSubScore <= 0) {
-            $this->environmentalScore = $this->baseScore;
+            $this->environmentalScore = 0;
         }
         else {
             switch ($modifiedScope) {
